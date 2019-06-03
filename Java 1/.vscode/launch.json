@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestaValores",
+      "request": "launch",
+      "mainClass": "TestaValores"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestaConversao",
+      "request": "launch",
+      "mainClass": "TestaConversao"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Programa",
+      "request": "launch",
+      "mainClass": "Programa"
+    }
+  ]
+}
