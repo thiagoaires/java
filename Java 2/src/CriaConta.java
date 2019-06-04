@@ -11,16 +11,16 @@ public class CriaConta {
 //
 //        System.out.println(conseguiuRetirar);
 
-        System.out.println(primeiraConta.saldo);
-        System.out.println(segundaConta.saldo);
+        System.out.println(primeiraConta.getSaldo());
+        System.out.println(segundaConta.getSaldo());
         if(primeiraConta.transfere(50, segundaConta)){
             System.out.println("transferencia feita com sucesso");
         } else{
             System.out.println("sem saldo");
         }
 
-        System.out.println(primeiraConta.saldo);
-        System.out.println(segundaConta.saldo);
+        System.out.println(primeiraConta.getSaldo());
+        System.out.println(segundaConta.getSaldo());
     }
 
 }
