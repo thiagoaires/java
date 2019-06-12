@@ -5,7 +5,8 @@ public class Funcionario {
     protected double salario;
 
     public double getBonificacao(){
-        return this.salario * 0.05;
+        System.out.println("Bonus Funcionario");
+        return this.salario * 0.03;
     }
 
     public String getNome() {
